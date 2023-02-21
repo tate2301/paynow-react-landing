@@ -68,3 +68,23 @@ footer > ul {
     gap: 2rem;
     list-style: none;
 }
+
+.action {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    align-items: center;
+}
+
+.action > a {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+}
+
+@media  screen and (max-width: 425px) {
+    footer > ul {
+        flex-direction: column;
+        gap: 1rem;
+    }
+}
