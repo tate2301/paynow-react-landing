@@ -4,7 +4,8 @@ body {
     flex-direction: column;
     justify-content: space-between;
     height: 100%;
-    background-color:#F5F5F5;
+    background: radial-gradient(circle at 15% 50%,#ede9fe,hsla(0,0%,100%,0) 25%),radial-gradient(circle at 85% 30%,#d8f3f6,hsla(0,0%,100%,0) 25%);
+    max-height: 100vh;
 }
 
 main {
