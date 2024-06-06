@@ -4,7 +4,7 @@ body {
     flex-direction: column;
     justify-content: space-between;
     height: 100dvh;
-    background: radial-gradient(circle at 15% 50%,#ede9fe,hsla(0,0%,100%,0) 25%),radial-gradient(circle at 85% 30%,#d8f3f6,hsla(0,0%,100%,0) 25%);
+    background: #eee;
     max-height: 100vh;
 }
 
@@ -20,6 +20,11 @@ main {
     width: 100%;
     gap: 3rem;
     flex: 1;
+}
+
+p {
+    text-wrap: balance;
+    line-height: 1.4rem;
 }
 
 footer {
@@ -48,16 +53,18 @@ a:hover {
 }
 
 button {
-    border: 1px solid #ffffff;
-    background: #fefefe;
-    padding: 0.5rem 1rem;
+    background: #ddd;
+    padding: 0.5rem 1.5rem;
     border-radius: 0.5rem;
     font-family: inherit;
     font-size: inherit;
-    box-shadow:  0px 4px 12px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 2px 12px -6px rgba(0, 0, 0, 0.1);
     display: flex;
-    gap:1rem;
+    gap: 1rem;
     align-items: center;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
 }
 
 button > svg:hover {
